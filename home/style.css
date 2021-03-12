@@ -54,6 +54,12 @@
     vertical-align: middle;
 }
 
+.menu-tab-highlighted
+{
+    color: #FBE576;
+    font-weight: bold;
+}
+
 .showcase-img
 {
     width: 100%;
