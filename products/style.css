@@ -84,3 +84,12 @@
     text-decoration: none;
     color: #B4CDED;
 }
+
+.vista-colors
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    display: block;
+}
