@@ -20,6 +20,36 @@
     color: #F9EBB0;
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     font-weight: lighter;
+}
+
+.menu-tabs
+{
+    display: grid;
+    height: 50px;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: solid;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-color: #F8F8F8;
+    grid-template-areas: "tab1 tab2 tab3 tab4";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.menu-tab
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-size: 23px;
+    color: #F8F8F8;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
 }
