@@ -1,0 +1,11 @@
+@font-face
+{
+    font-family: ABeeZee;
+    src: url(../assets/fonts/ABeeZee/ABeeZee-Regular.ttf);
+}
+
+body
+{
+    font-family: ABeeZee;
+    background-color: #202020;
+}
