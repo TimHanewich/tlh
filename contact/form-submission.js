@@ -55,6 +55,8 @@ $("#btn_SubmitForm").click(function()
             {
                 //Hide the form, show successful
                 document.getElementById("ContactForm").classList.add("hidden");
+                document.getElementById("ContactForm_Split").classList.add("hidden");
+                document.getElementById("ContactForm_Split").classList.remove("contact-form-split"); //Have to remove this because this has a display: grid in it whcih will not allow it to be hidden unless removed.
                 document.getElementById("SuccessMsg").classList.remove("hidden");
             }
             else
