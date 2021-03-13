@@ -12,3 +12,8 @@ $("#tab_Brochures").click(function()
 {
     window.location.href = "brochures";
 });
+
+$("#tab_Contact").click(function()
+{
+    window.location.href = "contact";
+});
