@@ -19,9 +19,22 @@
         <div class="center-div" style="width: 60%;">
             <p class="content-desc">I provide assessments and quotes at no charge. Please fill out the contact form below and I will return your message within 24 business hours.</p>
         
-            <!--The form itself-->
-            <div id="ContactForm" class="center-div" style="width: 55%; margin-top: 30px;">
+            
 
+            
+        
+            <!--Success message (hidden)-->
+            <div id="SuccessMsg" class="hidden">
+                <p class="content-desc" style="text-align: center; margin-top: 30px; color: greenyellow;">Submission successful! I will return your email within 24 business hours. Thank you!</p>
+            </div>
+
+        
+        </div>
+
+        <!--Split pane-->
+        <div class="contact-form-split">
+                    
+            <div class="contact-form-half" style="grid-area: h1;">
                 <!--Name-->
                 <p class="input-label">Name</p>
                 <input id="input_Name" type="text" class="input-text">
@@ -33,7 +46,9 @@
                 <!--Email-->
                 <p class="input-label">Email</p>
                 <input id="input_Email" type="text" class="input-text">
+            </div>
 
+            <div class="contact-form-half" style="grid-area: h2;">
                 <!--Address-->
                 <p class="input-label">Property Address</p>
                 <input id="input_Address" type="text" class="input-text">
@@ -44,32 +59,27 @@
 
                 <!--Message-->
                 <p class="input-label">Message</p>
-                <textarea id="input_Body" class="input-text" style="height: 220px;"></textarea>
-
-                <!--How have you heard of my services?-->
-                <p class="input-label">How have you heard of my services?</p>
-                <input type="radio" id="rb_Advertisement" name="found-from">
-                <label for="rb_Advertisement" class="found-from-rb">Advertisement</label>
-                <input type="radio" id="rb_InternetSearch" name="found-from">
-                <label for="rb_InternetSearch" class="found-from-rb">Internet Search</label>
-                <input type="radio" id="rb_Referral" name="found-from">
-                <label for="rb_Referral" class="found-from-rb">Referral</label>
-                
- 
-                <!--Error message-->
-                <p id="errormsg" class="error-msg hidden">Error message!</p>
-
-                <!--Submit button-->
-                <button id="btn_SubmitForm" class="submit-form-btn">Submit</button>
-
-            </div>
-        
-            <!--Success message (hidden)-->
-            <div id="SuccessMsg" class="hidden">
-                <p class="content-desc" style="text-align: center; margin-top: 30px; color: greenyellow;">Submission successful! I will return your email within 24 business hours. Thank you!</p>
+                <textarea id="input_Body" class="input-text"></textarea>
             </div>
 
-        
+        </div>
+
+        <!--The services radio button and submit button-->
+        <div id="ContactForm" class="center-div" style="width: 30%; margin-top: 10px;">
+            <!--How have you heard of my services?-->
+            <p class="input-label">How have you heard of my services?</p>
+            <input type="radio" id="rb_Advertisement" name="found-from">
+            <label for="rb_Advertisement" class="found-from-rb">Advertisement</label>
+            <input type="radio" id="rb_InternetSearch" name="found-from">
+            <label for="rb_InternetSearch" class="found-from-rb">Internet Search</label>
+            <input type="radio" id="rb_Referral" name="found-from">
+            <label for="rb_Referral" class="found-from-rb">Referral</label>
+            
+            <!--Error message-->
+            <p id="errormsg" class="error-msg hidden">Error message!</p>
+
+            <!--Submit button-->
+            <button id="btn_SubmitForm" class="submit-form-btn">Submit</button>
         </div>
 
         <!--Dead space-->

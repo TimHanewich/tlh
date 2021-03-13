@@ -35,7 +35,7 @@
     margin-right: auto;
     width: 150px;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: ABeeZee;
     background-color: #B4CDED;
     border-width: 2px;
@@ -48,4 +48,23 @@
     color: #F8F8F8;
     font-family: ABeeZee;
     font-size: 18px;
+}
+
+.contact-form-split
+{
+    display: grid;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-areas: "h1 h2";
+    grid-template-columns: 50% 50%;
+}
+
+.contact-form-half
+{
+    height: 100%;
+    width: 90%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
