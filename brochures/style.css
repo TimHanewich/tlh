@@ -1,0 +1,28 @@
+.doc-icon-desc-grid
+{
+    display: grid;
+    height: 40px;
+    width: 100%;
+    grid-template-areas: "icon desc";
+    grid-template-columns: 40px 1fr;
+    margin-bottom: 10px;
+}
+
+.doc-icon
+{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    grid-area: icon;
+}
+
+.doc-desc
+{
+    font-size: 20px;
+    color: #F8F8F8;
+    grid-area: desc;
+    text-align: left;
+    line-height: 40px;
+    vertical-align: middle;
+    margin: 0px;
+}
