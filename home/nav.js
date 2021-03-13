@@ -7,3 +7,8 @@ $("#tab_Products").click(function()
 {
     window.location.href = "products";
 });
+
+$("#tab_Brochures").click(function()
+{
+    window.location.href = "brochures";
+});
