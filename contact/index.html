@@ -20,7 +20,7 @@
             <p class="content-desc">I provide assessments and quotes at no charge. Please fill out the contact form below and I will return your message within 24 business hours.</p>
         
             <!--The form itself-->
-            <div class="center-div" style="width: 55%; margin-top: 30px;">
+            <div id="ContactForm" class="center-div" style="width: 55%; margin-top: 30px;">
 
                 <!--Name-->
                 <p class="input-label">Name</p>
@@ -64,10 +64,18 @@
 
             </div>
         
+            <!--Success message (hidden)-->
+            <div id="SuccessMsg" class="hidden">
+                <p class="content-desc" style="text-align: center; margin-top: 30px; color: greenyellow;">Submission successful! I will return your email within 24 business hours. Thank you!</p>
+            </div>
+
         
         </div>
 
         <!--Dead space-->
         <div style="width: 100%; height: 40px;"></div>
+
+        <!--SCRIPTS-->
+        <script src="tools.js"></script>
     </body>
 </html>
