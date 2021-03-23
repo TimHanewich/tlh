@@ -51,12 +51,20 @@
 .hpc
 {
     position: relative;
-    text-align: left;
+    text-align: center;
     font-size: 32px;
     color: #F8F8F8;
     margin: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     font-weight: lighter;
+    display: block;
+    border-bottom-width: 1.5px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-color: #FBE576;
+    padding-bottom: 3px;
 }
 
 .bg-img
