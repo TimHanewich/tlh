@@ -42,8 +42,18 @@
     margin-left: auto;
     margin-right: auto;
     object-fit: contain;
-    position: relative;
+    position: absolute;
     border-radius: 10px;
+}
+
+.showcase-img-cont
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: orchid;
+    height: 50px;
 }
 
 
@@ -92,5 +102,15 @@
     width: 100%;
     position: fixed;
     transform: translateY(-15%);
+}
+
+.img-front
+{
+    z-index: 5;
+}
+
+.img-back
+{
+    z-index: 4;
 }
 
