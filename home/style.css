@@ -12,8 +12,8 @@
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-color: #F8F8F8;
-    grid-template-areas: "tab1 tab2 tab3 tab4";
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "tab1 tab2 tab3 tab4 tab5";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .menu-tab
